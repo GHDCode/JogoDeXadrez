@@ -16,7 +16,7 @@ namespace xadrez_console
                     }
                     else
                     {
-                        Console.WriteLine(tabuleiro.peca(i, j) + " ");
+                        Console.Write(tabuleiro.peca(i, j) + " ");
                     }
                 }
                 Console.WriteLine();
